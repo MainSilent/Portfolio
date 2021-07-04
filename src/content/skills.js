@@ -12,7 +12,7 @@ class Skills extends Component {
                         <div className="row">
                             {skills[key].map((skill, i) => 
                                 <div key={i} className="skill">
-                                    <img src={process.env.PUBLIC_URL + `/static/logo/${skill.name.toLowerCase()}.png`}/>
+                                    <img src={process.env.PUBLIC_URL + `/static/logo/${skill.name == "C#" ? "csharp" : skill.name.toLowerCase()}.png`}/>
                                     {skill.name}
                                 </div>   
                             )}
