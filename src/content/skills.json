@@ -15,7 +15,13 @@
         { "name": "Laravel", "url": "" }
     ],
     "JavaScript": [
-
+        { "name": "React", "url": "" },
+        { "name": "Redux", "url": "" },
+        { "name": "React Native", "url": "" },
+        { "name": "Gatsby", "url": "" },
+        { "name": "Next", "url": "" },
+        { "name": "Three", "url": "" },
+        { "name": "Vue", "url": "" }
     ],
     "CSS": [
         { "name": "SCSS", "url": "" },
