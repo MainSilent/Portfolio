@@ -15,15 +15,18 @@
         { "name": "Laravel", "url": "" }
     ],
     "JavaScript": [
-        
+
     ],
     "CSS": [
-
+        { "name": "SCSS", "url": "" },
+        { "name": "Bootstrap", "url": "" },
+        { "name": "Tailwind", "url": "" }
     ],
     "Database": [
-
+        { "name": "MySQL", "url": "" },
+        { "name": "PostgreSQL", "url": "" }
     ],
     "C++": [
-
+        { "name": "Qt", "url": "" }
     ]
 }
