@@ -1,9 +1,18 @@
 import React, { Component } from "react"
+import skills from "./skills.json"
 
 class Skills extends Component {
     render() {
         return (
-            <h1>Skills</h1>
+            <div id="skills-container">
+                {Object.keys(skills).map(key => 
+                    <div key={key}>
+                        {skills[key].map((skill, i) => 
+                            <p key={i}>{skill.name}</p>   
+                        )}
+                    </div> 
+                )}
+            </div>
         )
     }
 }
