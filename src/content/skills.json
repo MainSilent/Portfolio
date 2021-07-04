@@ -1,0 +1,29 @@
+{
+    "General": [
+        { "name": "Python", "url": "" },
+        { "name": "JavaScript", "url": "" },
+        { "name": "Node.js", "url": "" },
+        { "name": "PHP", "url": "" },
+        { "name": "Html & CSS", "url": "" },
+        { "name": "C#", "url": "" },
+        { "name": "C & C++", "url": "" },
+        { "name": "Assembly x86", "url": "" },
+        { "name": "Linux", "url": "" }
+    ],
+    "Backend": [
+        { "name": "Django", "url": "" },
+        { "name": "Laravel", "url": "" }
+    ],
+    "JavaScript": [
+        
+    ],
+    "CSS": [
+
+    ],
+    "Database": [
+
+    ],
+    "C++": [
+
+    ]
+}
