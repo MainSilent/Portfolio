@@ -83,7 +83,36 @@ main {
         .row {
             display: flex;
             align-items: center;
-            padding: 30px 10px;
+            padding: 20px 10px;
+
+            .skill {
+                margin: 5px;
+                width: 128px;
+                height: 128px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                background-color: #f5f5f50a;
+                border-radius: $radius;
+
+                img {
+                    width: 70px;
+                    height: 70px;
+                }
+
+                p {
+                    font-size: 18px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+
+                &:hover {
+                    transition: 0.12s;
+                    background-color: #f5f5f515;
+                }
+            }
         }
     }
 }
