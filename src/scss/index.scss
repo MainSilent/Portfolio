@@ -46,26 +46,37 @@ main {
 #content {
     width: 87.5%;
     height: 100%;
+    padding: 10px;
     align-self: center;
     background-color: #f5f5f530;
     border-radius: $radius;
 
     #skills-container {
-        
+        font-size: 22px;
 
         .separator {
             display: flex;
             align-items: center;
             text-align: center;
 
-            &:before, &:after {
+            &:before {
+                content: '';
+                flex: 0.04;
+                border-bottom: 1px solid #f5f5f533;
+            }
+
+            &:after {
               content: '';
               flex: 1;
               border-bottom: 1px solid #f5f5f533;
             }
 
-            &:not(:empty)::before, &:not(:empty)::after {
-                margin-right: .25em;
+            &:not(:empty)::before {
+                margin-right: .30em;
+            }
+
+            &:not(:empty)::after {
+                margin-left: .30em;
             }
         }
     }
