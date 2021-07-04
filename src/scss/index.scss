@@ -49,4 +49,22 @@ main {
     align-self: center;
     background-color: #f5f5f530;
     border-radius: $radius;
+
+    #skills-container {
+        .separator {
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            &:before, &:after {
+              content: '';
+              flex: 1;
+              border-bottom: 1px solid #000;
+            }
+
+            &:not(:empty)::before, &:not(:empty)::after {
+                margin-right: .25em;
+            }
+        }
+    }
 }
