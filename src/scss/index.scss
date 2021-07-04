@@ -79,5 +79,11 @@ main {
                 margin-left: .30em;
             }
         }
+
+        .row {
+            display: flex;
+            align-items: center;
+            padding: 30px 10px;
+        }
     }
 }

@@ -8,10 +8,12 @@ class Skills extends Component {
                 {Object.keys(skills).map(key => 
                     <div key={key}>
                         <div className="separator">{key}</div>
-                        
-                        {skills[key].map((skill, i) => 
-                            <p key={i}>{skill.name}</p>   
-                        )}
+
+                        <div className="row">
+                            {skills[key].map((skill, i) => 
+                                <p key={i}>{skill.name}</p>   
+                            )}
+                        </div>
                     </div> 
                 )}
             </div>
