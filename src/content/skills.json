@@ -1,38 +1,41 @@
 {
     "General": [
-        { "name": "Python", "url": "" },
-        { "name": "JavaScript", "url": "" },
-        { "name": "Node.js", "url": "" },
-        { "name": "PHP", "url": "" },
-        { "name": "Html & CSS", "url": "" },
-        { "name": "C#", "url": "" },
-        { "name": "C & C++", "url": "" },
-        { "name": "Assembly x86", "url": "" },
-        { "name": "Linux", "url": "" }
+        { "name": "Python", "url": "https://www.python.org" },
+        { "name": "JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+        { "name": "Node.js", "url": "https://nodejs.org/en/" },
+        { "name": "PHP", "url": "https://www.php.net" },
+        { "name": "HTML", "url": "https://www.w3schools.com/html/html_intro.asp" },
+        { "name": "CSS", "url": "https://www.w3schools.com/css/css_intro.asp" },
+        { "name": "C#", "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" },
+        { "name": "C", "url": "https://en.wikipedia.org/wiki/C_(programming_language)" },
+        { "name": "C++", "url": "https://en.wikipedia.org/wiki/C%2B%2B" },
+        { "name": "Assembly x86", "url": "https://en.wikipedia.org/wiki/X86_assembly_language" },
+        { "name": "Linux", "url": "https://en.wikipedia.org/wiki/Linux" }
     ],
     "Backend": [
-        { "name": "Django", "url": "" },
-        { "name": "Laravel", "url": "" }
+        { "name": "Django", "url": "https://www.djangoproject.com" },
+        { "name": "Laravel", "url": "https://laravel.com" }
     ],
     "JavaScript": [
-        { "name": "React", "url": "" },
-        { "name": "Redux", "url": "" },
-        { "name": "React Native", "url": "" },
-        { "name": "Gatsby", "url": "" },
-        { "name": "Next", "url": "" },
-        { "name": "Three", "url": "" },
-        { "name": "Vue", "url": "" }
+        { "name": "React", "url": "https://reactjs.org" },
+        { "name": "Redux", "url": "https://redux.js.org" },
+        { "name": "Electron", "url": "https://www.electronjs.org" },
+        { "name": "React Native", "url": "https://react-redux.js.org" },
+        { "name": "Gatsby", "url": "https://www.gatsbyjs.com" },
+        { "name": "Next", "url": "https://nextjs.org" },
+        { "name": "Three", "url": "https://threejs.org" },
+        { "name": "Vue", "url": "https://vuejs.org" }
     ],
     "CSS": [
-        { "name": "SCSS", "url": "" },
-        { "name": "Bootstrap", "url": "" },
-        { "name": "Tailwind", "url": "" }
+        { "name": "SCSS", "url": "https://sass-lang.com" },
+        { "name": "Bootstrap", "url": "https://getbootstrap.com" },
+        { "name": "Tailwind", "url": "https://tailwindcss.com" }
     ],
     "Database": [
-        { "name": "MySQL", "url": "" },
-        { "name": "PostgreSQL", "url": "" }
+        { "name": "MySQL", "url": "https://www.mysql.com" },
+        { "name": "PostgreSQL", "url": "https://www.postgresql.org" }
     ],
     "C++": [
-        { "name": "Qt", "url": "" }
+        { "name": "Qt", "url": "https://www.qt.io" }
     ]
 }
