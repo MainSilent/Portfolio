@@ -12,8 +12,8 @@ class Projects extends Component {
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
-                    <p>Website: https://besh-kan.github.io/home/</p>
-                    <p>Github: https://github.com/MainSilent/Besh-kan.git</p>
+                    <p><i className="fas fa-globe"/>: https://besh-kan.github.io/home/</p>
+                    <p><i className="fab fa-github"/>: https://github.com/MainSilent/Besh-kan.git</p>
                 </div>)}
             </div>
         )
