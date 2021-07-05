@@ -1,13 +1,13 @@
 import React, { Component } from "react"
-import { Route } from "react-router-dom"
-import { CSSTransition } from "react-transition-group"
+import { Route, Switch } from "react-router-dom"
+import { CSSTransition, TransitionGroup } from "react-transition-group"
 import Projects from "./content/projects"
 import Skills from "./content/skills"
 
 const routes = [
     { path: '/', name: 'Projects', Component: Projects },
     { path: '/skills', name: 'Skills', Component: Skills },
-    //{ path: '*', name: 'Skills', Component: <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1> }
+    { path: '*', name: '404', Component: () => <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1> }
 ]
 
 class Content extends Component {
@@ -23,17 +23,17 @@ class Content extends Component {
     render() {
         return (
             <div id="content">
-                {routes.map(({ path, Component }) => (
-                    <Route key={path} exact path={path}>
-                    {({ match }) => (
-                        <CSSTransition in={match != null} timeout={300} classNames="page" unmountOnExit>
-                        <div className="page">
-                            <Component />
-                        </div>
+                <Route render={({location}) => (
+                    <TransitionGroup>
+                        <CSSTransition in={true} key={location.key} timeout={300} classNames="page" unmountOnExit>
+                            <Switch location={location}>
+                                <Route path='/skills' component={Skills}/>
+                                <Route path='/' component={Projects} exact/>
+                                <Route path='*' component={() => <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1>}/>
+                            </Switch>
                         </CSSTransition>
-                    )}
-                    </Route>
-                ))}
+                    </TransitionGroup>
+                )}/>
             </div>
         )
     }
