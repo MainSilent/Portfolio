@@ -2,6 +2,12 @@ import React, { Component } from "react"
 import { Link } from "react-router-dom";
 
 class Menu extends Component {
+    componentDidMount() {
+        const content = document.getElementById("content")
+        document.querySelectorAll(".item").forEach(elem => {
+            elem.onclick = () => content.scrollTop = 0
+        })
+    }
     render() {
         return (
             <div id="menu">
