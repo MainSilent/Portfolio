@@ -4,6 +4,15 @@ import Projects from "./content/projects"
 import Skills from "./content/skills"
 
 class Content extends Component {
+    componentDidMount() {
+        // Scroll the content when mouse is outside
+        window.addEventListener("wheel", event => {
+            const delta = Math.sign(event.deltaY);
+            const elem = document.getElementById("content")
+            if (!(elem.parentNode.querySelector(":hover") == elem))
+                elem.scrollTop += (delta * 30)
+        })
+    }
     render() {
         return (
             <div id="content">
