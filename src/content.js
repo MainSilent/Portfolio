@@ -1,7 +1,14 @@
 import React, { Component } from "react"
 import { Route, Switch } from "react-router-dom"
+import { CSSTransition } from "react-transition-group"
 import Projects from "./content/projects"
 import Skills from "./content/skills"
+
+const routes = [
+    { path: '/', name: 'Projects', Component: Projects },
+    { path: '/skills', name: 'Skills', Component: Skills },
+    //{ path: '*', name: 'Skills', Component: <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1> }
+]
 
 class Content extends Component {
     componentDidMount() {
@@ -16,11 +23,17 @@ class Content extends Component {
     render() {
         return (
             <div id="content">
-                <Switch>
-                    <Route path='/skills' component={Skills}/>
-                    <Route path='/' component={Projects} exact/>
-                    <Route path='*' component={() => <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1>}/>
-                </Switch>
+                {routes.map(({ path, Component }) => (
+                    <Route key={path} exact path={path}>
+                    {({ match }) => (
+                        <CSSTransition in={match != null} timeout={300} classNames="page" unmountOnExit>
+                        <div className="page">
+                            <Component />
+                        </div>
+                        </CSSTransition>
+                    )}
+                    </Route>
+                ))}
             </div>
         )
     }
