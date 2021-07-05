@@ -19,7 +19,7 @@ class Content extends Component {
             <div id="content">
                 <Route render={({location}) => (
                     <TransitionGroup>
-                        <CSSTransition key={location.key} timeout={300} classNames="page" mountOnEnter={true} unmountOnExit={true}>
+                        <CSSTransition key={location.pathname} timeout={300} classNames="page" mountOnEnter={true} unmountOnExit={true}>
                             <Switch>
                                 <Route path='/skills' component={Skills}/>
                                 <Route path='/' component={Projects} exact/>
