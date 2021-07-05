@@ -19,8 +19,8 @@ class Content extends Component {
             <div id="content">
                 <Route render={({location}) => (
                     <TransitionGroup>
-                        <CSSTransition in={true} key={location.key} timeout={300} classNames="page" unmountOnExit>
-                            <Switch location={location}>
+                        <CSSTransition key={location.key} timeout={300} classNames="page" mountOnEnter={true} unmountOnExit={true}>
+                            <Switch>
                                 <Route path='/skills' component={Skills}/>
                                 <Route path='/' component={Projects} exact/>
                                 <Route path='*' component={() => <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1>}/>
