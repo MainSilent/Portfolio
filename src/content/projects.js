@@ -12,8 +12,8 @@ class Projects extends Component {
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
-                    <p><i className="fas fa-globe"/>: https://besh-kan.github.io/home/</p>
-                    <p><i className="fab fa-github"/>: https://github.com/MainSilent/Besh-kan.git</p>
+                    <a href="#"><img width="25" src={process.env.PUBLIC_URL+"static/globe.png"}/> https://besh-kan.github.io/home/</a>
+                    <a href="#"><img width="25" src={process.env.PUBLIC_URL+"static/github.png"}/> https://github.com/MainSilent/Besh-kan.git</a>
                 </div>)}
             </div>
         )
