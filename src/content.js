@@ -4,12 +4,6 @@ import { CSSTransition, TransitionGroup } from "react-transition-group"
 import Projects from "./content/projects"
 import Skills from "./content/skills"
 
-const routes = [
-    { path: '/', name: 'Projects', Component: Projects },
-    { path: '/skills', name: 'Skills', Component: Skills },
-    { path: '*', name: '404', Component: () => <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1> }
-]
-
 class Content extends Component {
     componentDidMount() {
         // Scroll the content when mouse is outside
