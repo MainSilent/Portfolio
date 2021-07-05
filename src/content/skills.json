@@ -24,7 +24,8 @@
         { "name": "Gatsby", "url": "https://www.gatsbyjs.com" },
         { "name": "Next", "url": "https://nextjs.org" },
         { "name": "Three", "url": "https://threejs.org" },
-        { "name": "Vue", "url": "https://vuejs.org" }
+        { "name": "Vue", "url": "https://vuejs.org" },
+        { "name": "jQuery", "url": "https://jquery.com" }
     ],
     "CSS": [
         { "name": "SCSS", "url": "https://sass-lang.com" },
