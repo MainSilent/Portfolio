@@ -12,6 +12,7 @@ class Projects extends Component {
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
+                    <div className="line"/>
                     <a href="#"><img width="25" src={process.env.PUBLIC_URL+"static/globe.png"}/> https://besh-kan.github.io/home/</a>
                     <a href="#"><img width="25" src={process.env.PUBLIC_URL+"static/github.png"}/> https://github.com/MainSilent/Besh-kan.git</a>
                 </div>)}
