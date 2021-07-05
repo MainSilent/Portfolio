@@ -1,5 +1,6 @@
 import React, { Component } from "react"
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom"
+import { CSSTransition } from 'react-transition-group'
 import Projects from "./content/projects"
 import Skills from "./content/skills"
 
