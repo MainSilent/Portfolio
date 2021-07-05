@@ -101,6 +101,7 @@ main {
         .row {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
             padding: 20px 10px;
 
             .skill {
