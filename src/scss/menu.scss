@@ -17,3 +17,12 @@
         transition: 0.2s;
     }
 }
+
+@media only screen and (max-width: 1300px) {
+    #menu {
+        .item {
+            padding: 8px;
+            font-size: 17px;
+        }
+    }
+}
