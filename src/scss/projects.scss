@@ -1,8 +1,7 @@
 #projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
     justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, 320px);
 
     .project {
         display: flex;
@@ -86,6 +85,8 @@
 
 @media only screen and (max-width: 1300px) {
     #projects-container {
+        grid-template-columns: repeat(auto-fill, 280px);
+
         .project {
             width: 280px;
 
