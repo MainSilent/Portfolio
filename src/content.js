@@ -10,7 +10,7 @@ class Content extends Component {
         window.addEventListener("wheel", event => {
             const delta = Math.sign(event.deltaY);
             const elem = document.getElementById("content")
-            if (!(elem.parentNode.querySelector(":hover") == elem))
+            if (!(elem.parentNode.querySelector(":hover") === elem))
                 elem.scrollTop += (delta * 30)
         })
     }
