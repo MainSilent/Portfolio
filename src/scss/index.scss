@@ -58,4 +58,17 @@ main {
         flex-direction: column;
         padding: 7px;
     }
+
+    &::-webkit-scrollbar {
+        width: 0.25em;
+        border-radius: $radius-800;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: $radius-800;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        border-radius: $radius-800;
+    }
 }
