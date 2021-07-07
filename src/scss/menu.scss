@@ -8,6 +8,10 @@
     .item {
         padding: 10px;
         font-size: 22px;
+
+        .active {
+            background-color: #40514e;
+        }
     }
 
     .item:hover {
@@ -30,10 +34,14 @@
 @media only screen and (max-width: 800px) {
     #menu {
         display: flex;
-        justify-content: space-evenly;
         width: 100%;
-        padding: 10px 0;
+        padding: 0;
     
+        a {
+            width: 100%;
+            text-align: center;
+        }
+
         .item {
             padding: 10px;
             font-size: 22px;
