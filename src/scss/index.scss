@@ -45,3 +45,9 @@ main {
 
 @import "./menu.scss";
 @import "./content.scss";
+
+@media only screen and (max-width: 1300px)  {
+    &::-webkit-scrollbar {
+        width: 0.45em;
+    }
+}
