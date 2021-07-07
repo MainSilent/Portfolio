@@ -32,6 +32,7 @@
         display: flex;
         width: 100%;
         padding: 0;
+        border-radius: $radius-800;
     
         a {
             width: 100%;
@@ -40,7 +41,7 @@
 
         .item {
             padding: 10px;
-            font-size: 22px;
+            font-size: 16px;
             cursor: default;
         }
 
