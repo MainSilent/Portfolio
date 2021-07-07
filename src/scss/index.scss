@@ -51,3 +51,9 @@ main {
         width: 0.45em;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+}

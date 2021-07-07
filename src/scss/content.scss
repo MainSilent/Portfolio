@@ -38,3 +38,10 @@
     @import "./projects.scss";
     @import "./skills.scss";
 }
+
+@media only screen and (max-width: 800px) {
+    #content {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
