@@ -109,6 +109,9 @@
         }
     
         .row {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: repeat(auto-fill, 96px);
             padding: 10px 5px;
     
             .skill {
