@@ -30,7 +30,7 @@
         { "name": "Discord.js", "url": "https://discord.js.org" }
     ],
     "CSS": [
-        { "name": "SCSS", "url": "https://sass-lang.com" },
+        { "name": "SASS", "url": "https://sass-lang.com" },
         { "name": "Bootstrap", "url": "https://getbootstrap.com" },
         { "name": "Tailwind", "url": "https://tailwindcss.com" }
     ],
