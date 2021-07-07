@@ -8,10 +8,6 @@
     .item {
         padding: 10px;
         font-size: 22px;
-
-        .active {
-            background-color: #40514e;
-        }
     }
 
     .item:hover {
@@ -45,6 +41,11 @@
         .item {
             padding: 10px;
             font-size: 22px;
+            cursor: default;
+        }
+
+        .active {
+            background-color: #40514e;
         }
     }
 }
