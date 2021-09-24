@@ -9,7 +9,7 @@
         { "name": "C#", "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" },
         { "name": "C", "url": "https://en.wikipedia.org/wiki/C_(programming_language)" },
         { "name": "C++", "url": "https://en.wikipedia.org/wiki/C%2B%2B" },
-        { "name": "Assembly x86", "url": "https://en.wikipedia.org/wiki/X86_assembly_language" },
+        { "name": "ASM x86", "url": "https://en.wikipedia.org/wiki/X86_assembly_language" },
         { "name": "Linux", "url": "https://en.wikipedia.org/wiki/Linux" },
         { "name": "Discord API", "url": "https://discord.com" }
     ],
