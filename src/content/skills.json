@@ -2,6 +2,7 @@
     "General": [
         { "name": "Python", "url": "https://www.python.org" },
         { "name": "JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+        { "name": "TypeScript", "url": "https://www.typescriptlang.org" },
         { "name": "Node.js", "url": "https://nodejs.org/en/" },
         { "name": "PHP", "url": "https://www.php.net" },
         { "name": "HTML", "url": "https://www.w3schools.com/html/html_intro.asp" },
@@ -11,11 +12,17 @@
         { "name": "C++", "url": "https://en.wikipedia.org/wiki/C%2B%2B" },
         { "name": "ASM x86", "url": "https://en.wikipedia.org/wiki/X86_assembly_language" },
         { "name": "Linux", "url": "https://en.wikipedia.org/wiki/Linux" },
-        { "name": "Discord API", "url": "https://discord.com" }
+        { "name": "Discord API", "url": "https://discord.com" },
+        { "name": "GraphQL", "url": "https://graphql.org" },
+        { "name": "JWT", "url": "https://jwt.io" },
+        { "name": "Docker", "url": "https://www.docker.com" },
+        { "name": "Kubernetes", "url": "https://kubernetes.io" }
     ],
     "Backend": [
         { "name": "Django", "url": "https://www.djangoproject.com" },
-        { "name": "Laravel", "url": "https://laravel.com" }
+        { "name": "FastAPI", "url": "https://fastapi.tiangolo.com" },
+        { "name": "Laravel", "url": "https://laravel.com" },
+        { "name": "ExpressJS", "url": "https://expressjs.com" }
     ],
     "JavaScript": [
         { "name": "React", "url": "https://reactjs.org" },
@@ -36,7 +43,9 @@
     ],
     "Database": [
         { "name": "MySQL", "url": "https://www.mysql.com" },
-        { "name": "PostgreSQL", "url": "https://www.postgresql.org" }
+        { "name": "PostgreSQL", "url": "https://www.postgresql.org" },
+        { "name": "MongoDB", "url": "https://www.mongodb.com" },
+        { "name": "Redis", "url": "https://redis.io" }
     ],
     "C++": [
         { "name": "Qt", "url": "https://www.qt.io" }
