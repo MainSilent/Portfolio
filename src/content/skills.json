@@ -49,5 +49,9 @@
     ],
     "C++": [
         { "name": "Qt", "url": "https://www.qt.io" }
+    ],
+    "Testing": [
+        { "name": "Selenium", "url": "https://www.selenium.dev" },
+        { "name": "Jest", "url": "https://jestjs.io" }
     ]
 }
