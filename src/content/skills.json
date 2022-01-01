@@ -7,6 +7,7 @@
         { "name": "PHP", "url": "https://www.php.net" },
         { "name": "HTML", "url": "https://www.w3schools.com/html/html_intro.asp" },
         { "name": "CSS", "url": "https://www.w3schools.com/css/css_intro.asp" },
+        { "name": "Rust", "url": "https://www.rust-lang.org" },
         { "name": "C#", "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" },
         { "name": "C", "url": "https://en.wikipedia.org/wiki/C_(programming_language)" },
         { "name": "C++", "url": "https://en.wikipedia.org/wiki/C%2B%2B" },
