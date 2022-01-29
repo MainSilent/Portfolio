@@ -1,0 +1,76 @@
+#certificates-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, 320px);
+
+    .cert {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: max-content;
+        padding: 10px;
+        margin: 12px 0;
+        background-color: #40514e;
+        border-radius: 1%;
+        transition: 0.2s;
+        cursor: pointer;
+
+        .thumbnail {
+            width: 100%;
+            border-radius: 0.2vw;
+        }
+        
+        .name {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-decoration: underline;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 5px 0;
+            opacity: 0.8;
+
+            &:hover {
+                transition: 0.2s;
+                opacity: 1;
+            }
+        }
+
+        &:hover {
+            box-shadow: #2f3b39 0 0 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #certificates-container {
+        grid-template-columns: repeat(auto-fill, 280px);
+
+        .cert {
+            width: 280px;
+            border-radius: 2%;
+
+            .name {
+                margin-top: 8px;
+                font-size: 15px;
+            }
+
+            a {
+                font-size: 13px;
+                padding: 3px 0;
+            }
+
+            &:hover {
+                box-shadow: #2f3b39 0 0 7px;
+            }
+        }
+    }
+}

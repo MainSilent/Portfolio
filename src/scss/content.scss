@@ -35,6 +35,7 @@
         transition: opacity 300ms, transform 300ms;
     }
 
+    @import "./certificates.scss";
     @import "./projects.scss";
     @import "./skills.scss";
 }
