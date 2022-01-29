@@ -31,10 +31,10 @@
         { "name": "Redux", "url": "https://redux.js.org" },
         { "name": "Electron", "url": "https://www.electronjs.org" },
         { "name": "React Native", "url": "https://react-redux.js.org" },
-        { "name": "Web3", "url": "https://web3js.readthedocs.io" },
+        { "name": "Web3.js", "url": "https://web3js.readthedocs.io" },
         { "name": "Gatsby", "url": "https://www.gatsbyjs.com" },
-        { "name": "Next", "url": "https://nextjs.org" },
-        { "name": "Three", "url": "https://threejs.org" },
+        { "name": "Next.js", "url": "https://nextjs.org" },
+        { "name": "Three.js", "url": "https://threejs.org" },
         { "name": "Vue", "url": "https://vuejs.org" },
         { "name": "jQuery", "url": "https://jquery.com" },
         { "name": "Discord.js", "url": "https://discord.js.org" }
