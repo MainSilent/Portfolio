@@ -11,14 +11,27 @@ class Menu extends Component {
         })
     }
     render() {
+        const w = document.body.clientWidth
         return (
             <div id="menu">
-                <Link to="/skills">
-                    <div className="item"><FontAwesomeIcon icon={faBook} /> Skills</div>
-                </Link>
-                <Link to="/" exact>
-                    <div className="item"><FontAwesomeIcon icon={faTasks} /> Projects</div>
-                </Link>
+                {w <= 800 ?
+                    <Link to="/" exact>
+                        <div className="item"><FontAwesomeIcon icon={faTasks} /> Projects</div>
+                    </Link> :
+                    <Link to="/skills">
+                        <div className="item"><FontAwesomeIcon icon={faBook} /> Skills</div>
+                    </Link>
+                }
+
+                {w >= 801 ?
+                    <Link to="/" exact>
+                        <div className="item"><FontAwesomeIcon icon={faTasks} /> Projects</div>
+                    </Link> :
+                    <Link to="/skills">
+                        <div className="item"><FontAwesomeIcon icon={faBook} /> Skills</div>
+                    </Link>
+                }
+
                 <Link to="/certificates">
                     <div className="item"><FontAwesomeIcon icon={faCertificate} /> Certificates</div>
                 </Link>

@@ -28,7 +28,7 @@
 
         .item {
             padding: 8px;
-            font-size: 17px;
+            font-size: 15.5px;
         }
     }
 }
@@ -44,9 +44,8 @@
         overflow-y: hidden;
         border-radius: $radius-800;
 
-        scrollbar-width: none;
         &::-webkit-scrollbar {
-            display: none;
+            height: 0.2em;
         }
     
         a {
