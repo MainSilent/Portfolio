@@ -1,5 +1,5 @@
 #content {
-    width: 87.5%;
+    width: 86%;
     height: 100%;
     padding: 10px;
     align-self: center;
@@ -37,6 +37,12 @@
 
     @import "./projects.scss";
     @import "./skills.scss";
+}
+
+@media only screen and (max-width: 1300px) {
+    #content {
+        width: 84%;
+    }
 }
 
 @media only screen and (max-width: 800px) {

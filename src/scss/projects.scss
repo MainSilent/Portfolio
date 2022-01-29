@@ -1,5 +1,6 @@
 #projects-container {
     display: grid;
+    grid-gap: 10px;
     grid-auto-flow: row;
     justify-content: space-evenly;
     grid-template-columns: repeat(auto-fill, 320px);
@@ -10,7 +11,7 @@
         width: 320px;
         height: max-content;
         padding: 10px;
-        margin: 20px 0;
+        margin: 12px 0;
         background-color: #40514e;
         border-radius: 1%;
         transition: 0.2s;
