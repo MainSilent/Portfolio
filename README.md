@@ -1,3 +1,3 @@
 # Portfolio
 
-I have also experiences with Bitcoin protocol, solidity and web3.js but since I don't have any projects It is not in my portfolio.
+I'm a 10x dev, I only use and search things that I need in that moment And the skills in portfolio page is what I experienced so far.

@@ -17,7 +17,8 @@
         { "name": "GraphQL", "url": "https://graphql.org" },
         { "name": "JWT", "url": "https://jwt.io" },
         { "name": "Docker", "url": "https://www.docker.com" },
-        { "name": "Kubernetes", "url": "https://kubernetes.io" }
+        { "name": "Kubernetes", "url": "https://kubernetes.io" },
+        { "name": "Solidity", "url": "https://docs.soliditylang.org" }
     ],
     "Backend": [
         { "name": "Django", "url": "https://www.djangoproject.com" },
@@ -30,6 +31,7 @@
         { "name": "Redux", "url": "https://redux.js.org" },
         { "name": "Electron", "url": "https://www.electronjs.org" },
         { "name": "React Native", "url": "https://react-redux.js.org" },
+        { "name": "Web3", "url": "https://web3js.readthedocs.io" },
         { "name": "Gatsby", "url": "https://www.gatsbyjs.com" },
         { "name": "Next", "url": "https://nextjs.org" },
         { "name": "Three", "url": "https://threejs.org" },
