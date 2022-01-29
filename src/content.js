@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Route, Switch } from "react-router-dom"
 import { CSSTransition, TransitionGroup } from "react-transition-group"
+import Certificates from "./content/certificates"
 import Projects from "./content/projects"
 import Skills from "./content/skills"
 
@@ -21,6 +22,7 @@ class Content extends Component {
                     <TransitionGroup>
                         <CSSTransition key={location.pathname} timeout={300} classNames="page" mountOnEnter={true} unmountOnExit={true}>
                             <Switch>
+                                <Route path='/certificates' component={Certificates}/>
                                 <Route path='/skills' component={Skills}/>
                                 <Route path='/' component={Projects} exact/>
                                 <Route path='*' component={() => <h1 style={{marginLeft: 20}}>404 - Page Not Found</h1>}/>
