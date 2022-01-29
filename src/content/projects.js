@@ -7,7 +7,7 @@ class Projects extends Component {
             <div id="projects-container">
                 {projects.map((project, i) => 
                     <div className="project" key={i}>
-                        <img className="thumbnail" src={project.thumbnail} alt="thumbnail"/>
+                        <img className="thumbnail" src={project.thumbnail ?? '/static/no_thumbnail.png'} alt="thumbnail"/>
                         <p className="name">{project.name}</p>
                         <ul>
                             {project.skills.map((skill, i) => 
