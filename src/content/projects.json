@@ -1,33 +1,217 @@
 [
     {
-        "name": "Besh-kan",
-        "thumbnail": "https://camo.githubusercontent.com/12b2dde6beed6ef1073ea61434cbdf129a7a459b69ce919aad1b8295ee728368/68747470733a2f2f626573682d6b616e2e6769746875622e696f2f686f6d652f696d616765732f6261636b67726f756e642e706e67",
-        "skills": [
-            "PHP",
-            "HTML",
-            "CSS"
-        ],
-        "url": "https://besh-kan.github.io/home/"
+        "name": "extractFileIcon",
+        "skills": ["csharp"],
+        "github": "https://github.com/MainSilent/extractFileIcon"
+    },
+    {
+        "name": "GetWindowsStoreApps",
+        "skills": ["csharp"],
+        "github": "https://github.com/MainSilent/GetWindowsStoreApps"
+    },
+    {
+        "name": "Taskbar Edge.js",
+        "skills": ["csharp"],
+        "github": "https://github.com/MainSilent/Taskbar"
+    },
+    {
+        "name": "Control",
+        "skills": ["csharp"],
+        "github": "https://github.com/MainSilent/Control"
+    },
+    {
+        "name": "Simple Wayland Compositor",
+        "skills": ["c++", "qt"],
+        "thumbnail": "/static/projects/compositor.png",
+        "github": "https://github.com/MainSilent/Compositor"
+    },
+    {
+        "name": "ReCaptcha-Bypass",
+        "skills": ["python"],
+        "github": "https://github.com/MainSilent/ReCaptcha-Bypass"
+    },
+    {
+        "name": "hCaptcha-Bypass",
+        "skills": ["python"],
+        "github": "https://github.com/MainSilent/hCaptcha-Bypass"
+    },
+    {
+        "name": "DiscordAlwaysType",
+        "skills": ["python"],
+        "github": "https://github.com/MainSilent/DiscordAlwaysType"
+    },
+    {
+        "name": "linux.js",
+        "skills": ["javascript", "node.js", "linux"],
+        "thumbnail": "/static/projects/linux.js.png",
+        "url": "https://www.npmjs.com/package/@mainsilent/linux.js",
+        "github": "https://github.com/MainSilent/linux.js"
+    },
+    {
+        "name": "DiscordAds",
+        "skills": ["python"],
+        "github": "https://github.com/MainSilent/DiscordAds"
+    },
+    {
+        "name": "DiscordSelfBotVoice",
+        "skills": ["javascript", "node.js"],
+        "github": "https://github.com/MainSilent/DiscordSelfBotVoice"
+    },
+    {
+        "name": "DAC",
+        "skills": ["python"],
+        "github": "https://github.com/MainSilent/DAC"
+    },
+    {
+        "name": "Go Shad",
+        "skills": ["javascript", "node.js", "electron"],
+        "thumbnail": "/static/projects/Go_Shad.png",
+        "github": "https://github.com/MainSilent/Go_Shad"
+    },
+    {
+        "name": "instaAds",
+        "skills": ["python"],
+        "thumbnail": "/static/projects/instaAds.png",
+        "github": "https://github.com/MainSilent/instaAds"
+    },
+    {
+        "name": "StorySharing",
+        "skills": ["javascript", "node.js", "jest", "graphql", "mongodb", "expressjs"],
+        "github": "https://github.com/MainSilent/StorySharing"
+    },
+    {
+        "name": "Wiki CS50",
+        "skills": ["python", "django"],
+        "github": "https://github.com/MainSilent/Wiki_CS50"
+    },
+    {
+        "name": "Commerce CS50",
+        "skills": ["python", "django"],
+        "github": "https://github.com/MainSilent/Commerce_CS50"
+    },
+    {
+        "name": "Network CS50",
+        "skills": ["python", "django"],
+        "github": "https://github.com/MainSilent/Network_CS50"
+    },
+    {
+        "name": "GitENC",
+        "skills": ["rust"],
+        "github": "https://github.com/MainSilent/GitENC"
+    },
+    {
+        "name": "Electro Pouya",
+        "skills": ["php", "javascript", "jquery"],
+        "thumbnail": "/static/projects/Electro-Pouya.png",
+        "github": "https://github.com/MainSilent/Electro-Pouya"
+    },
+    {
+        "name": "PublicKey DB",
+        "skills": ["rust"],
+        "github": "https://github.com/MainSilent/PublicKey-DB"
+    },
+    {
+        "name": "Twitter Followings Tracker",
+        "skills": ["javascript", "node.js"],
+        "github": "https://github.com/MainSilent/Twitter-Followings-Tracker"
     },
     {
         "name": "Besh-kan",
-        "thumbnail": "https://camo.githubusercontent.com/12b2dde6beed6ef1073ea61434cbdf129a7a459b69ce919aad1b8295ee728368/68747470733a2f2f626573682d6b616e2e6769746875622e696f2f686f6d652f696d616765732f6261636b67726f756e642e706e67",
-        "skills": [
-            "PHP",
-            "HTML",
-            "CSS"
-        ],
+        "skills": ["c", "linux"],
+        "thumbnail": "/static/projects/beshkan.png",
         "url": "https://besh-kan.github.io/home/",
         "github": "https://github.com/MainSilent/Besh-kan"
     },
     {
-        "name": "Besh-kan",
-        "thumbnail": "https://camo.githubusercontent.com/12b2dde6beed6ef1073ea61434cbdf129a7a459b69ce919aad1b8295ee728368/68747470733a2f2f626573682d6b616e2e6769746875622e696f2f686f6d652f696d616765732f6261636b67726f756e642e706e67",
-        "skills": [
-            "PHP",
-            "HTML",
-            "CSS"
-        ],
-        "github": "https://github.com/MainSilent/Besh-kan"
+        "name": "SHA256 Tutorial",
+        "skills": ["python"],
+        "github": "https://github.com/MainSilent/SHA256-Tutorial"
+    },
+    {
+        "name": "MailTm",
+        "skills": ["python"],
+        "thumbnail": "/static/projects/mailtm.png",
+        "url": "https://pypi.org/project/MailTm/",
+        "github": "https://github.com/MainSilent/MailTm"
+    },
+    {
+        "name": "Impulse",
+        "skills": ["python"],
+        "thumbnail": "/static/projects/Impulse.png",
+        "url": "https://pypi.org/project/Captcha-Impulse/",
+        "github": "https://github.com/MainSilent/Impulse"
+    },
+    {
+        "name": "Nelody",
+        "skills": ["javascript", "node.js"],
+        "github": "https://github.com/MainSilent/Nelody"
+    },
+    {
+        "name": "Discord Screenshare",
+        "skills": ["javascript", "node.js", "selenium"],
+        "thumbnail": "/static/projects/Discord-Screenshare.png",
+        "github": "https://github.com/MainSilent/Discord-Screenshare"
+    },
+    {
+        "name": "DualTouch",
+        "skills": ["javascript", "node.js", "electron"],
+        "thumbnail": "/static/projects/DualTouch.png",
+        "github": "https://github.com/MainSilent/DualTouch"
+    },
+    {
+        "name": "Code Learner",
+        "skills": ["php", "javascript", "jquery"],
+        "thumbnail": "/static/projects/codelearner.png",
+        "url": "https://mainsilent.github.io/Code-Learner/",
+        "github": "https://github.com/MainSilent/Code-Learner"
+    },
+    {
+        "name": "Vatina",
+        "skills": ["python", "javascript", "react", "django"],
+        "thumbnail": "/static/projects/Vatina.png",
+        "url": "https://mainsilent.github.io/Vatina/",
+        "github": "https://github.com/MainSilent/Vatina"
+    },
+    {
+        "name": "WealthSherpa",
+        "skills": ["javascript", "react"],
+        "thumbnail": "/static/projects/WealthSherpa.png",
+        "url": "https://www.wealthsherpa.co.uk",
+        "github": "https://github.com/MainSilent/WealthSherpa"
+    },
+    {
+        "name": "Adobeyar",
+        "skills": ["javascript", "react", "react native"],
+        "thumbnail": "/static/projects/adobeyar.png",
+        "url": "https://cafebazaar.ir/app/com.adobeyar"
+    },
+    {
+        "name": "Skyroomyar",
+        "skills": ["javascript", "react", "react native"],
+        "thumbnail": "/static/projects/skyroomyar.png",
+        "url": "https://cafebazaar.ir/app/com.skyroomyar"
+    },
+    {
+        "name": "Two-T",
+        "skills": ["javascript", "node.js", "discord.js"],
+        "github": "https://github.com/MainSilent/Two-T"
+    },
+    {
+        "name": "Portfolio",
+        "skills": ["javascript", "react"],
+        "thumbnail": "/static/projects/Portfolio.png",
+        "github": "https://github.com/MainSilent/Portfolio"
+    },
+    {
+        "name": "ECO",
+        "skills": ["c++", "qt", "linux"],
+        "thumbnail": "/static/projects/ECO.png",
+        "github": "https://github.com/Neo-Repo/ECO"
+    },
+    {
+        "name": "ScreenSh0x",
+        "skills": ["javascript", "web3.js"],
+        "thumbnail": "/static/projects/ScreenSh0x.png",
+        "url": "https://screensh0x.com"
     }
 ]
