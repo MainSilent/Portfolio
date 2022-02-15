@@ -145,7 +145,7 @@
         "github": "https://github.com/MainSilent/Besh-kan"
     },
     {
-        "name": "Impulse",
+        "name": "Captcha Impulse",
         "skills": ["python"],
         "thumbnail": "/static/projects/Impulse.png",
         "url": "https://pypi.org/project/Captcha-Impulse/",
@@ -205,7 +205,7 @@
         "name": "WealthSherpa",
         "skills": ["javascript", "react"],
         "thumbnail": "/static/projects/WealthSherpa.png",
-        "url": "https://www.wealthsherpa.co.uk",
+        "url": "https://wealthsherpa.co.uk",
         "github": "https://github.com/MainSilent/WealthSherpa"
     },
     {

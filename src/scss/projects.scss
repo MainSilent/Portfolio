@@ -17,8 +17,9 @@
         transition: 0.2s;
 
         .thumbnail {
-            width: 100%;
+            width: auto;
             height: 150px;
+            margin: auto;
             border-radius: 0.2vw;
         }
         
@@ -45,6 +46,7 @@
 
                 img {
                     width: 20px;
+                    height: 20px;
                     margin-right: 5px;
                     border-radius: 50%;
                 }
@@ -114,6 +116,7 @@
     
                     img {
                         width: 17px;
+                        height: 17px;
                         margin-right: 3px;
                     }
                 }
@@ -147,6 +150,7 @@
         .project {
             .thumbnail {
                 height: 120px;
+                border-radius: 0.8vw;
             }
         }
     }
