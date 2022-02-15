@@ -26,12 +26,12 @@
         "github": "https://github.com/MainSilent/Compositor"
     },
     {
-        "name": "ReCaptcha-Bypass",
+        "name": "ReCaptcha Bypass",
         "skills": ["python"],
         "github": "https://github.com/MainSilent/ReCaptcha-Bypass"
     },
     {
-        "name": "hCaptcha-Bypass",
+        "name": "hCaptcha Bypass",
         "skills": ["python"],
         "github": "https://github.com/MainSilent/hCaptcha-Bypass"
     },
@@ -39,13 +39,6 @@
         "name": "DiscordAlwaysType",
         "skills": ["python"],
         "github": "https://github.com/MainSilent/DiscordAlwaysType"
-    },
-    {
-        "name": "linux.js",
-        "skills": ["javascript", "node.js", "linux"],
-        "thumbnail": "/static/projects/linux.js.png",
-        "url": "https://www.npmjs.com/package/@mainsilent/linux.js",
-        "github": "https://github.com/MainSilent/linux.js"
     },
     {
         "name": "DiscordAds",
@@ -76,7 +69,7 @@
     },
     {
         "name": "StorySharing",
-        "skills": ["javascript", "node.js", "jest", "graphql", "mongodb", "expressjs"],
+        "skills": ["javascript", "node.js", "graphql", "mongodb", "expressjs", "jest"],
         "github": "https://github.com/MainSilent/StorySharing"
     },
     {
@@ -101,9 +94,26 @@
     },
     {
         "name": "Electro Pouya",
-        "skills": ["php", "javascript", "jquery"],
+        "skills": ["php", "javascript", "jquery", "mysql"],
         "thumbnail": "/static/projects/Electro-Pouya.png",
         "github": "https://github.com/MainSilent/Electro-Pouya"
+    },
+    {
+        "name": "linux.js",
+        "skills": ["javascript", "node.js", "linux"],
+        "thumbnail": "/static/projects/linux.js.png",
+        "url": "https://www.npmjs.com/package/@mainsilent/linux.js",
+        "github": "https://github.com/MainSilent/linux.js"
+    },
+    {
+        "name": "Nelody",
+        "skills": ["javascript", "node.js"],
+        "github": "https://github.com/MainSilent/Nelody"
+    },
+    {
+        "name": "Two-T",
+        "skills": ["javascript", "node.js", "discord.js"],
+        "github": "https://github.com/MainSilent/Two-T"
     },
     {
         "name": "PublicKey DB",
@@ -114,13 +124,6 @@
         "name": "Twitter Followings Tracker",
         "skills": ["javascript", "node.js"],
         "github": "https://github.com/MainSilent/Twitter-Followings-Tracker"
-    },
-    {
-        "name": "Besh-kan",
-        "skills": ["c", "linux"],
-        "thumbnail": "/static/projects/beshkan.png",
-        "url": "https://besh-kan.github.io/home/",
-        "github": "https://github.com/MainSilent/Besh-kan"
     },
     {
         "name": "SHA256 Tutorial",
@@ -135,6 +138,13 @@
         "github": "https://github.com/MainSilent/MailTm"
     },
     {
+        "name": "Besh-kan",
+        "skills": ["c", "linux"],
+        "thumbnail": "/static/projects/beshkan.png",
+        "url": "https://besh-kan.github.io/home/",
+        "github": "https://github.com/MainSilent/Besh-kan"
+    },
+    {
         "name": "Impulse",
         "skills": ["python"],
         "thumbnail": "/static/projects/Impulse.png",
@@ -142,9 +152,29 @@
         "github": "https://github.com/MainSilent/Impulse"
     },
     {
-        "name": "Nelody",
-        "skills": ["javascript", "node.js"],
-        "github": "https://github.com/MainSilent/Nelody"
+        "name": "Code Learner",
+        "skills": ["php", "javascript", "jquery"],
+        "thumbnail": "/static/projects/codelearner.png",
+        "url": "https://mainsilent.github.io/Code-Learner/",
+        "github": "https://github.com/MainSilent/Code-Learner"
+    },
+    {
+        "name": "Adobeyar",
+        "skills": ["javascript", "react", "react native"],
+        "thumbnail": "/static/projects/adobeyar.png",
+        "url": "https://cafebazaar.ir/app/com.adobeyar"
+    },
+    {
+        "name": "Skyroomyar",
+        "skills": ["javascript", "react", "react native"],
+        "thumbnail": "/static/projects/skyroomyar.png",
+        "url": "https://cafebazaar.ir/app/com.skyroomyar"
+    },
+    {
+        "name": "Portfolio",
+        "skills": ["javascript", "react"],
+        "thumbnail": "/static/projects/Portfolio.png",
+        "github": "https://github.com/MainSilent/Portfolio"
     },
     {
         "name": "Discord Screenshare",
@@ -159,11 +189,10 @@
         "github": "https://github.com/MainSilent/DualTouch"
     },
     {
-        "name": "Code Learner",
-        "skills": ["php", "javascript", "jquery"],
-        "thumbnail": "/static/projects/codelearner.png",
-        "url": "https://mainsilent.github.io/Code-Learner/",
-        "github": "https://github.com/MainSilent/Code-Learner"
+        "name": "ScreenSh0x",
+        "skills": ["javascript", "web3.js"],
+        "thumbnail": "/static/projects/ScreenSh0x.png",
+        "url": "https://screensh0x.com"
     },
     {
         "name": "Vatina",
@@ -180,38 +209,9 @@
         "github": "https://github.com/MainSilent/WealthSherpa"
     },
     {
-        "name": "Adobeyar",
-        "skills": ["javascript", "react", "react native"],
-        "thumbnail": "/static/projects/adobeyar.png",
-        "url": "https://cafebazaar.ir/app/com.adobeyar"
-    },
-    {
-        "name": "Skyroomyar",
-        "skills": ["javascript", "react", "react native"],
-        "thumbnail": "/static/projects/skyroomyar.png",
-        "url": "https://cafebazaar.ir/app/com.skyroomyar"
-    },
-    {
-        "name": "Two-T",
-        "skills": ["javascript", "node.js", "discord.js"],
-        "github": "https://github.com/MainSilent/Two-T"
-    },
-    {
-        "name": "Portfolio",
-        "skills": ["javascript", "react"],
-        "thumbnail": "/static/projects/Portfolio.png",
-        "github": "https://github.com/MainSilent/Portfolio"
-    },
-    {
         "name": "ECO",
         "skills": ["c++", "qt", "linux"],
         "thumbnail": "/static/projects/ECO.png",
         "github": "https://github.com/Neo-Repo/ECO"
-    },
-    {
-        "name": "ScreenSh0x",
-        "skills": ["javascript", "web3.js"],
-        "thumbnail": "/static/projects/ScreenSh0x.png",
-        "url": "https://screensh0x.com"
     }
 ]

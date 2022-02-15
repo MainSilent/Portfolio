@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import projects from "./projects.json"
 
+projects.reverse()
+
 class Projects extends Component {
     render() {
         return (
