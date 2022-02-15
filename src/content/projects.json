@@ -146,7 +146,7 @@
     },
     {
         "name": "Captcha Impulse",
-        "skills": ["python"],
+        "skills": ["python", "selenium"],
         "thumbnail": "/static/projects/Impulse.png",
         "url": "https://pypi.org/project/Captcha-Impulse/",
         "github": "https://github.com/MainSilent/Impulse"

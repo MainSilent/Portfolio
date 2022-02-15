@@ -7,7 +7,7 @@ class Certificates extends Component {
             <div id="certificates-container">
                 {certificates.map((cert, i) => 
                     <div className="cert" key={i} onClick={() => window.open(cert.url, '_blank')}>
-                        <img className="thumbnail" src={cert.image} alt="thumbnail"/>
+                        <img className="thumbnail" src={process.env.PUBLIC_URL + cert.image} alt="thumbnail"/>
                         <p className="name">{cert.name}</p>
                         <a href={cert.url}>{cert.url}</a>
                     </div>

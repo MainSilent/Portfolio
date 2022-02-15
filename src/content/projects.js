@@ -9,7 +9,7 @@ class Projects extends Component {
             <div id="projects-container">
                 {projects.map((project, i) => 
                     <div className="project" key={i}>
-                        <img className="thumbnail" src={project.thumbnail ?? '/static/no_thumbnail.png'} alt="thumbnail"/>
+                        <img className="thumbnail" src={process.env.PUBLIC_URL + (project.thumbnail ?? '/static/no_thumbnail.png')} alt={project.name} />
                         <p className="name">{project.name}</p>
                         <ul>
                             {project.skills.map((skill, i) => 
@@ -17,8 +17,8 @@ class Projects extends Component {
                             )}
                         </ul>
                         <div className="line"/>
-                        {project.url && <a href={project.url}><img alt="url" src={process.env.PUBLIC_URL+"static/globe.png"}/> {project.url}</a>}
-                        {project.github && <a href={project.github}><img alt="github" src={process.env.PUBLIC_URL+"static/github.png"}/> {project.github}</a>}
+                        {project.url && <a href={project.url}><img alt="url" src={process.env.PUBLIC_URL+"/static/globe.png"}/> {project.url}</a>}
+                        {project.github && <a href={project.github}><img alt="github" src={process.env.PUBLIC_URL+"/static/github.png"}/> {project.github}</a>}
                     </div>
                 )}
             </div>
