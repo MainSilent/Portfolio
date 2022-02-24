@@ -162,13 +162,13 @@
         "name": "Adobeyar",
         "skills": ["javascript", "react", "react native"],
         "thumbnail": "/static/projects/adobeyar.png",
-        "url": "https://cafebazaar.ir/app/com.adobeyar"
+        "url": "https://play.google.com/store/apps/details?id=com.adobeyar"
     },
     {
         "name": "Skyroomyar",
         "skills": ["javascript", "react", "react native"],
         "thumbnail": "/static/projects/skyroomyar.png",
-        "url": "https://cafebazaar.ir/app/com.skyroomyar"
+        "url": "https://play.google.com/store/apps/details?id=com.skyroomyar"
     },
     {
         "name": "Portfolio",
