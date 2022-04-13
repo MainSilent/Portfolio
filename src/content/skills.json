@@ -24,7 +24,8 @@
         { "name": "Django", "url": "https://www.djangoproject.com" },
         { "name": "FastAPI", "url": "https://fastapi.tiangolo.com" },
         { "name": "Laravel", "url": "https://laravel.com" },
-        { "name": "ExpressJS", "url": "https://expressjs.com" }
+        { "name": "ExpressJS", "url": "https://expressjs.com" },
+        { "name": "NestJS", "url": "https://nestjs.com" }
     ],
     "JavaScript": [
         { "name": "React", "url": "https://reactjs.org" },
@@ -37,7 +38,8 @@
         { "name": "Three.js", "url": "https://threejs.org" },
         { "name": "Vue", "url": "https://vuejs.org" },
         { "name": "jQuery", "url": "https://jquery.com" },
-        { "name": "Discord.js", "url": "https://discord.js.org" }
+        { "name": "Discord.js", "url": "https://discord.js.org" },
+        { "name": "Prisma", "url": "https://www.prisma.io" }
     ],
     "CSS": [
         { "name": "SASS", "url": "https://sass-lang.com" },
